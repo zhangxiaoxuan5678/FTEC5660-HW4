@@ -1,0 +1,92 @@
+[
+  {
+    "variant": "B0",
+    "change": "Naive baseline",
+    "chunks": 239,
+    "recall": 0.3695652173913043,
+    "kept": 1.0,
+    "rejected": 0.0,
+    "accuracy": 0.48333333333333334,
+    "seconds": 7.47
+  },
+  {
+    "variant": "V1",
+    "change": "Serialize tables",
+    "chunks": 285,
+    "recall": 0.2826086956521739,
+    "kept": 1.0,
+    "rejected": 0.0,
+    "accuracy": 0.45,
+    "seconds": 7.36
+  },
+  {
+    "variant": "V2",
+    "change": "Section-aware chunks",
+    "chunks": 2658,
+    "recall": 0.13043478260869565,
+    "kept": 1.0,
+    "rejected": 0.0,
+    "accuracy": 0.3333333333333333,
+    "seconds": 7.36
+  },
+  {
+    "variant": "V3",
+    "change": "Normalize lexical tokens",
+    "chunks": 2658,
+    "recall": 0.021739130434782608,
+    "kept": 1.0,
+    "rejected": 0.0,
+    "accuracy": 0.25,
+    "seconds": 7.0
+  },
+  {
+    "variant": "V4",
+    "change": "Filter company/type/year",
+    "chunks": 2658,
+    "recall": 0.2826086956521739,
+    "kept": 1.0,
+    "rejected": 0.7142857142857143,
+    "accuracy": 0.45,
+    "seconds": 6.11
+  },
+  {
+    "variant": "V5",
+    "change": "Remove company tokens",
+    "chunks": 2658,
+    "recall": 0.9130434782608695,
+    "kept": 1.0,
+    "rejected": 0.7142857142857143,
+    "accuracy": 0.9333333333333333,
+    "seconds": 6.07
+  },
+  {
+    "variant": "V6",
+    "change": "Boost table term coverage",
+    "chunks": 2658,
+    "recall": 1.0,
+    "kept": 1.0,
+    "rejected": 0.7142857142857143,
+    "accuracy": 0.9833333333333333,
+    "seconds": 6.36
+  },
+  {
+    "variant": "V7",
+    "change": "Allocate slots per company",
+    "chunks": 2658,
+    "recall": 1.0,
+    "kept": 1.0,
+    "rejected": 0.7142857142857143,
+    "accuracy": 1.0,
+    "seconds": 6.4
+  },
+  {
+    "variant": "V8",
+    "change": "Reject unsupported queries",
+    "chunks": 2658,
+    "recall": 1.0,
+    "kept": 1.0,
+    "rejected": 1.0,
+    "accuracy": 1.0,
+    "seconds": 6.71
+  }
+]
