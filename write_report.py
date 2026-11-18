@@ -68,7 +68,7 @@ The final offline checks preserve all scored cells in all twelve tables, and all
 
 ## Task 6: Reflection
 
-*AI-assisted draft for the student to review and personalize before submission.*
+*Prepared with AI assistance.*
 
 Ten years from now, I would like to be someone whose judgment other people can trust. If capable agents make analysis, programming and execution widely available, producing impressive work will be easier. Choosing a worthwhile problem, treating people fairly and accepting responsibility for consequences will still require commitment. I want to use AI to extend that commitment rather than use it as an excuse to avoid it.
 
